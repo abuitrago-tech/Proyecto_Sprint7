@@ -5,7 +5,7 @@ import numpy as np
 import plotly.express as px
 
 # Cargar datos
-car_data = pd.read_csv(r'C:\Users\user\Analisis_de_datos\Sprint_7\Directorio_Principal\Proyecto_Sprint7\vehicles_us.csv')
+car_data = pd.read_csv('vehicles_us.csv')
 car_data["type"] = car_data["type"].astype(str)
 
 # Poner título
